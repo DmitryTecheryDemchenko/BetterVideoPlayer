@@ -993,16 +993,17 @@ public class BetterVideoPlayer extends RelativeLayout implements IUserMethods,
     }
 
     private void adjustAspectRatio(int viewWidth, int viewHeight, int videoWidth, int videoHeight) {
-        final double aspectRatio = (double) videoHeight / videoWidth;
+        final double viewAspectRatio = (double) viewHeight / viewWidth;
+        final double videoAspectRatio = (double) videoHeight / videoWidth;
         int newWidth, newHeight;
 
-        if (viewHeight > (int) (viewWidth * aspectRatio)) {
+        if (viewAspectRatio > videoAspectRatio) {
             // limited by narrow width; restrict height
             newWidth = viewWidth;
-            newHeight = (int) (viewWidth * aspectRatio);
+            newHeight = (int) (viewWidth * videoAspectRatio);
         } else {
             // limited by short height; restrict width
-            newWidth = (int) (viewHeight / aspectRatio);
+            newWidth = (int) (viewHeight / videoAspectRatio);
             newHeight = viewHeight;
         }
 
