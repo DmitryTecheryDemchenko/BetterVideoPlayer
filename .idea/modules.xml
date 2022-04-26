@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BetterVideoPlayer.iml" filepath="$PROJECT_DIR$/BetterVideoPlayer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bettervideoplayer/bettervideoplayer.iml" filepath="$PROJECT_DIR$/bettervideoplayer/bettervideoplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BetterVideoPlayer.iml" filepath="$PROJECT_DIR$/.idea/modules/BetterVideoPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BetterVideoPlayer.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BetterVideoPlayer.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bettervideoplayer/BetterVideoPlayer.bettervideoplayer.iml" filepath="$PROJECT_DIR$/.idea/modules/bettervideoplayer/BetterVideoPlayer.bettervideoplayer.iml" />
     </modules>
   </component>
 </project>
